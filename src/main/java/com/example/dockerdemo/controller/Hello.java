@@ -14,7 +14,7 @@ public class Hello {
 @ResponseBody
 private ResponseEntity<String> hello()
 {
-	return new ResponseEntity<String>("Hello Abhijeet",HttpStatus.OK);
+	return new ResponseEntity<String>("Hello Abhishek",HttpStatus.OK);
 	
 	
 }
